@@ -13,7 +13,6 @@ df = pd.read_csv('pages\static\datos.csv')
 #trae las ciudades sin repetirlas
 df_ciudades = df['Ciudad'].unique()
 
-
 option = st.selectbox(
     "Ciudad",
     df_ciudades,
