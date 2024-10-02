@@ -24,7 +24,7 @@ st.write("Ha seleccionado la ciudad de: ", option)
 
 #slider
 age = st.slider("Edad ", 1, 100, 20)
-st.write("Edad por donde va el slider", age, "years old")
+st.write("Edad por donde va el slider", age, "años")
 
 #crea un tf desde la clumna Ciudad donde la ciudades sean la seleccionadas en el selectbox
 #df_ciudad = df[df['Ciudad']== option]
