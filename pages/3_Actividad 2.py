@@ -4,16 +4,6 @@ import io
 
 st.title("Actividad 2 - semana 9")
 
-
-#
-#.
-#
-#
-#Elimina la columna 'Descuento' del DataFrame.
-
-
-
-
 #leer el archivo csv
 df = pd.read_csv('pages\static\Ventas.csv')
 #Imprime todo el dataframe
