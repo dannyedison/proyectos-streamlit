@@ -7,7 +7,7 @@ st.title("Actividad 1 - semana 9")
 
 
 #leer el archivo csv
-df = pd.read_csv('pages\static\datos_demograficos.csv')
+df = pd.read_csv('pages\static\datasets\datos_demograficos.csv')
 
 st.text("Mostrar las primeras cinco filas")
 #mostrar los primeros x datos
