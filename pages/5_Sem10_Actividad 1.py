@@ -6,7 +6,7 @@ import numpy as np
 st.title("Actividad 1 - semana 10")
 
 #leer el archivo csv
-df = pd.read_csv('pages\static\datasets\estudiantes.cvs')
+df = pd.read_csv('pages\static\estudiantes.cvs')
 
 st.text("Mostrar los datos de Estudiantes")
 #mostrar los primeros x datos

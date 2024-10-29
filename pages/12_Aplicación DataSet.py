@@ -17,26 +17,9 @@ tad_descripcion, tab_Análisis_Exploratorio, tab_Filtrado_Básico, tab_Filtro_Fi
 with tad_descripcion:      
 
     st.markdown('''
-    ## Plantilla Básica para Proyecto Integrador
+    ## Plantilla Básica 
 
-    ### Introducción
-
-    -   ¿Qué es el proyecto?
-    -   ¿Cuál es el objetivo principal?
-    -   ¿Por qué es importante?
-
-    ### Desarrollo
-
-    -   Explicación detallada del proyecto
-    -   Procedimiento utilizado
-    -   Resultados obtenidos
-
-    ### Conclusión
-
-    -   Resumen de los resultados
-    -   Logros alcanzados
-    -   Dificultades encontradas
-    -   Aportes personales
+    
     ''')    
 
 #----------------------------------------------------------

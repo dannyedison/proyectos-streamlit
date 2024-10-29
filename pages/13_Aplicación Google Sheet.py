@@ -40,6 +40,8 @@ def update_sheet(df):
         valueInputOption="USER_ENTERED", body=body).execute()
     return result
 
+st.text('Id hoja')
+st.text('1SA6xHTNdsgJPbZf1hvleF1PlKCht-CZiwFHp2Xl85wc')
 # Botón para leer
 if st.button("Analizar datos de Google Sheet"):  
     df = read_sheet()

@@ -197,6 +197,38 @@ with tab_Análisis_Exploratorio:
     * Otra información importante  
     """)
     
+    st.text("----------")
+
+    st.text("Muestra las primeras 5 filas del DataFrame.  (df.head())")
+    #mostrar los primeros x datos
+    st.dataframe(df_products.head(5))
+
+    st.text("----------")
+
+    st.text("Muestra la cantidad de filas y columnas del DataFrame.  (df.shape)")
+    st.dataframe(df_products.shape)
+
+    st.text("----------")
+
+    st.text("Muestra los tipos de datos de cada columna.  (df.dtypes)")
+    st.dataframe(df_products.dtypes)
+
+    st.text("----------")
+
+    st.text("Identifica y muestra las columnas con valores nulos. (df.isnull().sum())")
+    st.dataframe(df_products.isnull().sum())
+
+    st.text("----------")
+
+    st.text("Muestra un resumen estadístico de las columnas numéricas.  (df_products.describe())")
+    st.dataframe(df_products.describe())
+
+    st.text("----------")
+
+    st.text("Muestra una tabla con la frecuencia de valores únicos para una columna categórica seleccionada. **(df_products['columna_categoria'].value_counts())**")
+    st.dataframe(df_products['categoria'].value_counts())
+
+
 #----------------------------------------------------------
 #Analítica 2
 #----------------------------------------------------------

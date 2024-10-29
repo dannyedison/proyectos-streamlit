@@ -5,7 +5,7 @@ import io
 st.title("Actividad 3 - semana 9")
 
 #leer el archivo csv
-df = pd.read_csv('pages\static\datasets\educacion.csv')
+df = pd.read_csv('pages\static\educacion.csv')
 #Imprime todo el dataframe
 #st.dataframe(df)
 

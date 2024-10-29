@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 #leer el archivo csv
-df = pd.read_csv('pages\static\datasets\datos.csv')
+df = pd.read_csv('pages\static\datos.csv')
 
 #imprimir columnas
 #df.columns
